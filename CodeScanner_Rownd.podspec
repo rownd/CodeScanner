@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = "CodeScanner"
-  s.version          = "1.0.0"
+  s.name             = "CodeScanner_Rownd"
+  s.version          = "1.0.1"
   s.summary          = "Get"
   s.description      = "Rownd fork of twostraws/CodeScanner"
   s.homepage         = "https://github.com/rownd/CodeScanner"
@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.ios.deployment_target = '14.0'
+  s.resources = "Resources/*.xcassets"
 
-  s.resources = "Resources/**/*.{json,pdf}" 
+  s.ios.deployment_target = '14.0'
 
   s.requires_arc     = true
   s.source_files     = 'Sources/**/*'
