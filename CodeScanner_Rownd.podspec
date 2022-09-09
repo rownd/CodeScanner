@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CodeScanner_Rownd"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Rownd fork of twostraws/CodeScanner"
   s.description      = "Rownd fork of twostraws/CodeScanner"
   s.homepage         = "https://github.com/rownd/CodeScanner"
