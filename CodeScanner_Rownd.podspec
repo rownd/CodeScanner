@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = "CodeScanner_Rownd"
   s.version          = "1.0.2"
-  s.summary          = "Rownd fork of twostraws/CodeScanner"
-  s.description      = "Rownd fork of twostraws/CodeScanner"
+  s.summary          = "Description: Rownd fork of twostraws/CodeScanner"
+  s.description      = "Summary: Rownd fork of twostraws/CodeScanner"
   s.homepage         = "https://github.com/rownd/CodeScanner"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = {
