@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "CodeScanner_Rownd"
   s.version          = "1.0.1"
-  s.summary          = "Get"
+  s.summary          = "Rownd fork of twostraws/CodeScanner"
   s.description      = "Rownd fork of twostraws/CodeScanner"
   s.homepage         = "https://github.com/rownd/CodeScanner"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.resources = "Resources/*.xcassets"
+  s.resource_bundles = {
+     'CodeScanner_Rownd' => ['Resources/*.xcassets']
+  }
 
   s.ios.deployment_target = '14.0'
 
