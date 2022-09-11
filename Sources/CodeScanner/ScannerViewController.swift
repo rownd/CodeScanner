@@ -133,19 +133,20 @@ extension CodeScannerView {
         let fallbackVideoCaptureDevice = AVCaptureDevice.default(for: .video)
 
         private lazy var viewFinder: UIImageView? = {
-            guard let image = UIImage(named: "viewfinder", in: .module, with: nil) else {
-                return nil
-            }
+            return nil
+            // guard let image = UIImage(named: "viewfinder", in: .module, with: nil) else {
+            //     return nil
+            // }
 
-            let imageView = UIImageView(image: image)
-            imageView.translatesAutoresizingMaskIntoConstraints = false
-            return imageView
+            // let imageView = UIImageView(image: image)
+            // imageView.translatesAutoresizingMaskIntoConstraints = false
+            // return imageView
         }()
         
         private lazy var manualCaptureButton: UIButton = {
             let button = UIButton(type: .system)
-            let image = UIImage(named: "capture", in: .module, with: nil)
-            button.setBackgroundImage(image, for: .normal)
+            // let image = UIImage(named: "capture", in: .module, with: nil)
+            // button.setBackgroundImage(image, for: .normal)
             button.addTarget(self, action: #selector(manualCapturePressed), for: .touchUpInside)
             button.translatesAutoresizingMaskIntoConstraints = false
             return button
