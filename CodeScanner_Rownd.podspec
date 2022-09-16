@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "CodeScanner_Rownd"
   s.version          = "1.0.4"
   s.summary          = "Description: Rownd fork of twostraws/CodeScanner"
-  s.description      = "Summary: Rownd fork of twostraws/CodeScanner"
+  s.description      = "Summary: Rownd fork of twostraws/CodeScanner. CodeScanner is a SwiftUI framework that makes it easy to scan codes such as QR codes and barcodes. It provides a view struct, CodeScannerView, that can be shown inside a sheet so that all scanning occurs in one place."
   s.homepage         = "https://github.com/rownd/CodeScanner"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = {
